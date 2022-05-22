@@ -3,89 +3,89 @@
     <head>
         <title>Gojira | Loja</title>
         <meta name="descriçãp" content="Essa é uma descrição.">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="main-nav nav">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="loja.html">Loja</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                 </ul>
             </nav>
+            <h1 class="band-name band-name-large">Gojira</h1>
         </header>
-        <h1>Loja</h1>
-        <section>
-            <h2>Albuns</h2>
-            <div>
-                <div>
-                    <strong>Fortitude</strong>
+        <section class="content-section container">
+            <h2 class="section-header">Albuns</h2>
+
+            <div class="loja-itens">
+
+                <div class="loja-item">
+                    <span class="loja-item-titulo">Fortitude</span>
+                    <img class="loja-item-img" src="/Images/Fortitude.jpg">
+                    <div class="loja-item-detalhes">
+                        <span class="loja-item-preço">R$ 50,00</span>
+                        <button class="btn btn-primary loja-item-btn" type="button">Adicionar ao carrinho</button>
+                    </div>
                 </div>
-                <img src="/Images/Fortitude.jpg" width="200" height="200">
-                <div>
-                    <span>R$ 50,00</span>
-                    <button type="button">Adicionar ao carrinho</button>
+
+                <div class="loja-item">
+                    <span class="loja-item-titulo">Magma</span>
+                    <img class="loja-item-img" src="/Images/Magma.png">
+                    <div class="loja-item-detalhes">
+                        <span class="loja-item-preço">R$ 40,00</span>
+                        <button class="btn btn-primary loja-item-btn" type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+
+                <div class="loja-item">
+                    <span class="loja-item-titulo">The way of all flash</span>
+                    <img class="loja-item-img" src="/Images/The way of all flesh.jpg">
+                    <div class="loja-item-detalhes">
+                        <span class="loja-item-preço">R$ 30,00</span>
+                        <button class="btn btn-primary loja-item-btn" type="button">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+
+                <div class="loja-item">
+                    <span class="loja-item-titulo">From Mars To Sirius</span>
+                    <img class="loja-item-img" src="/Images/From Mars To Sirius.png">
+                    <div class="loja-item-detalhes">
+                        <span class="loja-item-preço">R$ 25,00</span>
+                        <button class="btn btn-primary loja-item-btn" type="button">Adicionar ao carrinho</button>
+                    </div>
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <strong>Magma</strong>
-                </div>
-                <img src="/Images/Magma.png" width="200" height="200">
-                <div>
-                    <span>R$ 40,00</span>
-                    <button type="button">Adicionar ao carrinho</button>
-                </div>
-            </div>
+        </section>
+        <section class="content-section container">
+            <h2 class="section-header">Merchs</h2>
+            
+            <div class="loja-itens">
 
-            <div>
-                <div>
-                    <strong>The way of all flash</strong>
+                <div class="loja-item">
+                    <span class="loja-item-titulo">Camisa Gojira Magma</span>
+                    <img class="loja-item-img" src="/Images/Gojira Camisa.jpg">
+                    <div class="loja-item-detalhes">
+                        <span class="loja-item-preço">R$ 25,00</span>
+                        <button class="btn btn-primary loja-item-btn" type="button">Adicionar ao carrinho</button>
+                    </div>
                 </div>
-                <img src="/Images/The way of all flesh.jpg" width="200" height="200">
-                <div>
-                    <span>R$ 30,00</span>
-                    <button type="button">Adicionar ao carrinho</button>
-                </div>
-            </div>
 
-            <div>
-                <div>
-                    <strong>From Mars To Sirius</strong>
-                </div>
-                <img src="/Images/From Mars To Sirius.png" width="200" height="200">
-                <div>
-                    <span>R$ 25,00</span>
-                    <button type="button">Adicionar ao carrinho</button>
+                <div class="loja-item">
+                    <span class="loja-item-titulo">Camisa Gojira Logo</span>
+                    <img class="loja-item-img" src="/Images/Gojira Camisa 3.jpg">
+                    <div class="loja-item-detalhes">
+                        <span class="loja-item-preço">R$ 25,00</span>
+                        <button class="btn btn-primary loja-item-btn" type="button">Adicionar ao carrinho</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Merchs</h2>
-            <div>
-                <div>
-                    <strong>Camisa Gojira Magma</strong>
-                </div>
-                <img src="/Images/Gojira Camisa.jpg" width="200" height="200">
-                <div>
-                    <span>R$ 25,00</span>
-                    <button type="button">Adicionar ao carrinho</button>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <strong>Camisa Gojira Logo</strong>
-                </div>
-                <img src="/Images/Gojira Camisa 3.jpg" width="200" height="200">
-                <div>
-                    <span>R$ 25,00</span>
-                    <button type="button">Adicionar ao carrinho</button>
-                </div>
-            </div>
-        </section>
-            <h2>Carrinho</h2>
+        
+        <section class="content-section container">
+            <h2 class="section-header" >Carrinho</h2>
             <div>
                 <strong>Item</strong>
                 <strong>Preço</strong>
@@ -113,28 +113,29 @@
             <div>
                 <button role="button">Comprar</button>
             </div>
-        <section>
             
         </section>
-        <footer>
-            <h3>Gojira</h3>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/channel/UC34wpCgr3l9cG0RtFdTTS-Q" target="_blank">
-                        <img src="/Images/youtube-logo.png" width="15">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/artist/0GDGKpJFhVpcjIGF8N6Ewt?si=ckk2pXxyQ5Ke5nLS-Zr_Kw" target="_blank">
-                        <img src="/Images/Spotify_logo.svg.png" width="15">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/GojiraMusic" target="_blank">
-                        <img src="/Images/Facebook_logo.png.png" width="15">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Gojira</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC34wpCgr3l9cG0RtFdTTS-Q" target="_blank">
+                            <img src="/Images/youtube logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/0GDGKpJFhVpcjIGF8N6Ewt?si=ckk2pXxyQ5Ke5nLS-Zr_Kw" target="_blank">
+                            <img src="/Images/Spotify_logo.svg.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/GojiraMusic" target="_blank">
+                            <img src="/Images/Facebook_logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

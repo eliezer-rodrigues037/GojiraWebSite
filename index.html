@@ -3,94 +3,90 @@
     <head>
         <title>Gojira</title>
         <meta name="descriçãp" content="Essa é uma descrição.">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="main-nav nav">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="loja.html">Loja</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Gojira</h1>
-            <button type="button">Melhor musica</button>
-            <br>
-            <br>
-            <!-- A fazer: encontrar imagen de fundo.-->
-            <button type="button">&#9658;</button>
+            <h1 class="band-name band-name-large">Gojira</h1>
+            <div class="container">
+                <button class="btn btn-header" type="button">Ultimo Lançamento</button>
+            </div>
+            <button class="btn btn-header btn-play" type="button">&#9658;</button>
         </header>
-        <section>
-            <h2>Shows</h2>
+        <section class="content-section container">
+            <h2 class="section-header">Shows</h2>
             <div>
-                <div>
-                    <strong>16 de JUL</strong> 
-                    <span>SÃO PAULO SP</span>
-                    <span>TEATRO DAQUELE LUGAR</span>
-                    <button type="button">COMPRAR INGRESSOS</button>
-                    <hr>
+                <div class="shows-linha">
+                    <span class="shows-item shows-data">16 de JUL</span> 
+                    <span class="shows-item shows-cidade">SÃO PAULO SP</span>
+                    <span class="shows-item shows-local">TEATRO DAQUELE LUGAR</span>
+                    <button class="btn shows-item shows-button btn-primary" type="button">COMPRAR INGRESSOS</button>
                 </div>
 
-                <div>
-                    <strong>18 de ABRIL</strong> 
-                    <span>SOROCABA SP</span>
-                    <span>ESTÁDIO DAQUELE OUTRO LUGAR</span>
-                    <button type="button">COMPRAR INGRESSOS</button>
-                    <hr>
+                <div class="shows-linha">
+                    <span class="shows-item shows-data">18 de ABR</span> 
+                    <span class="shows-item shows-cidade">SOROCABA SP</span>
+                    <span class="shows-item shows-local">ESTÁDIO DAQUELE OUTRO LUGAR</span>
+                    <button class="btn shows-item shows-button btn-primary" type="button">COMPRAR INGRESSOS</button>
                 </div>
 
-                <div>
-                    <strong>30 de AGO</strong> 
-                    <span>PORTO ALEGRE RS</span>
-                    <span>NUM ESTADIO</span>
-                    <button type="button">COMPRAR INGRESSOS</button>
-                    <hr>
+                <div class="shows-linha">
+                    <span class="shows-item shows-data">30 de AGO</span> 
+                    <span class="shows-item shows-cidade">PORTO ALEGRE RS</span>
+                    <span class="shows-item shows-local">NUM ESTADIO</span>
+                    <button class="btn shows-item shows-button btn-primary" type="button">COMPRAR INGRESSOS</button>
                 </div>
 
-                <div>
-                    <strong>02 de SET</strong> 
-                    <span>PORTO ALEGRE, RS</span>
-                    <span>TAVERNA DO JÃO</span>
-                    <button type="button">COMPRAR INGRESSOS</button>
-                    <hr>
+                <div class="shows-linha">
+                    <span class="shows-item shows-data">02 de SET</span> 
+                    <span class="shows-item shows-cidade">PORTO ALEGRE, RS</span>
+                    <span class="shows-item shows-local">TAVERNA DO JÃO</span>
+                    <button class="btn shows-item shows-button btn-primary" type="button">COMPRAR INGRESSOS</button>
                 </div>
 
-                <div>
-                    <strong>15 de SET</strong> 
-                    <span>SALVADOR, BAHIA</span>
-                    <span>TEATRO DO DIODO</span>
-                    <button type="button">COMPRAR INGRESSOS</button>
-                    <hr>
+                <div class="shows-linha">
+                    <span class="shows-item shows-data">15 de SET</span> 
+                    <span class="shows-item shows-cidade">SALVADOR, BAHIA</span>
+                    <span class="shows-item shows-local">TEATRO DO DIODO</span>
+                    <button class="btn shows-item shows-button btn-primary" type="button">COMPRAR INGRESSOS</button>
                 </div>
-                <div>
-                    <strong>1 de OUT</strong> 
-                    <span>SALVADOR, BAHIA</span>
-                    <span>ESTADIO  DO ROQUE</span>
-                    <button type="button">COMPRAR INGRESSOS</button>
+                <div class="shows-linha">
+                    <span class="shows-item shows-data">1 de OUT</span> 
+                    <span class="shows-item shows-cidade">SALVADOR, BAHIA</span>
+                    <span class="shows-item shows-local">ESTADIO  DO ROQUE</span>
+                    <button class="btn shows-item shows-button btn-primary" type="button">COMPRAR INGRESSOS</button>
                 </div>
             </div>
         </section>
 
-        <footer>
-            <h3>Gojira</h3>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/channel/UC34wpCgr3l9cG0RtFdTTS-Q" target="_blank">
-                        <img src="/Images/youtube-logo.png" width="15">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/artist/0GDGKpJFhVpcjIGF8N6Ewt?si=ckk2pXxyQ5Ke5nLS-Zr_Kw" target="_blank">
-                        <img src="/Images/Spotify_logo.svg.png" width="15">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/GojiraMusic" target="_blank">
-                        <img src="/Images/Facebook_logo.png.png" width="15">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Gojira</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC34wpCgr3l9cG0RtFdTTS-Q" target="_blank">
+                            <img src="/Images/youtube logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/0GDGKpJFhVpcjIGF8N6Ewt?si=ckk2pXxyQ5Ke5nLS-Zr_Kw" target="_blank">
+                            <img src="/Images/Spotify_logo.svg.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/GojiraMusic" target="_blank">
+                            <img src="/Images/Facebook_logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

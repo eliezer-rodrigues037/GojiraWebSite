@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@font-face {
+    font-family: "Gojira - logo";
+    src: url(/fonts/Gojira\ Black.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    
+    color: #777;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);   
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url(/Images/Gojira-background.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Gojira - logo";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large{
+    font-size: 10em;
+}
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: 'Courgette', cursive;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+
+.sobre-gojira-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color: #051932;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #051932;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5%;
+    font-size: .9em;
+    font-weight: lighter;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    font-size: 2.5em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    padding-left: 1.5%;
+    padding-top: .5%;
+
+}
+
+.shows-linha {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.shows-linha:last-child{
+    border-bottom: none;
+
+}
+.shows-item {
+    display:  inline-block;
+    padding-right: .5em;
+}
+
+.shows-data {
+    color: #555;
+    font-weight: bold;
+    width: 17%;
+}
+
+.shows-cidade {
+    width: 24%;
+}
+
+.shows-local {
+    width: 40%;
+}
+
+.shows-button {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #051932;
+    border: none;
+    border-radius: .3em;
+    font-weight: lighter;
+}
+
+.btn-primary:hover {
+    background-color: #10407e;
+}
+
+.loja-item{
+ margin: 40px;
+}
+
+.loja-item-titulo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.loja-item-img{
+    height: 400px;
+}
+
+.loja-item-detalhes{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.loja-item-preço{
+    flex-grow: 1;
+    color: #051932;
+
+}
+
+.loja-itens{
+    display: flex;
+    flex-wrap: wrap;
+}
