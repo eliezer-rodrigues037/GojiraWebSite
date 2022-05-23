@@ -11,15 +11,15 @@
 * {
     box-sizing: border-box;
     font-family: 'Kalam', cursive;
-    
     color: #777;
-    
 }
 
 html, body {
     margin: 0;
     padding: 0;
     font-size: 1.2em;
+    height: 100%;
+    min-height: 100%;
 }
 .nav ul {
     margin: 0;
@@ -77,7 +77,7 @@ html, body {
 }
 
 .container{
-    max-width: 1600px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
@@ -101,7 +101,7 @@ html, body {
 .main-footer{
     background-color: #051932;
     color: white;
-    padding: .25em 0;
+    padding: 1.5em;
 }
 
 .main-footer-container{
