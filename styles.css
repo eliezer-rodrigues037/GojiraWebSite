@@ -238,3 +238,105 @@ html, body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.crr-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.crr-coluna{
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.crr-linha{
+    display: flex;
+}
+
+.crr-item{
+    width: 45%;
+}
+
+.crr-preço{
+    width: 20%;
+    color: #333;
+}
+
+.crr-qtd{
+    width: 35%;
+}
+.crr-item-nome{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.crr-item-img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.btn-danger{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.btn-danger:hover{
+    background-color: rgba(83, 7, 7, 0.822);
+}
+
+
+.crr-qtd-input {
+    height: 53px;
+    width: 70px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: solid #10407e;
+    padding: 0;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.crr-linha:last-child{
+    border-bottom: 1px solid black;
+}
+.crr-linha:last-child .crr-coluna {
+    border: none;
+}
+
+.crr-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.crr-total-nome {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.crr-total-preço{
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-comprar {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.1em;
+    margin-right: 0;
+    margin-left: auto;
+}

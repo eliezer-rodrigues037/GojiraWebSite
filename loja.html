@@ -86,34 +86,40 @@
         
         <section class="content-section container">
             <h2 class="section-header" >Carrinho</h2>
-            <div>
-                <strong>Item</strong>
-                <strong>Preço</strong>
-                <strong>Quantidade</strong>
+            <div class="crr-linha">
+                <span class="crr-item crr-header crr-coluna">Item</span>
+                <span class="crr-preço crr-header crr-coluna">Preço</span>
+                <span class="crr-qtd crr-header crr-coluna">Quantidade</span>
             </div>
-            <div>
-                <img src="/Images/Gojira Camisa.jpg" width="100">
-                <span>Camisa Gojira Logo</span>
-                <span>25,00</span>
-                <input type="number" value="1">
-                <button type="button">Remover</button>
+            <div class="crr-items">
+                <div class="crr-linha">
+                    <div class="crr-item crr-coluna">
+                        <img class="crr-item-img" src="/Images/Gojira Camisa.jpg" width="100">
+                        <span class="crr-item-nome">Camisa Gojira Logo</span>
+                    </div>
+                    <span class="crr-preço crr-coluna">25,00</span>
+                    <div class="crr-qtd crr-coluna">
+                        <input class="crr-qtd-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">Remover</button>
+                    </div>
+                </div>
+                <div class="crr-linha">
+                    <div class="crr-item crr-coluna">
+                        <img class="crr-item-img" src="/Images/Magma.png" width="100">
+                        <span class="crr-item-nome">Album Magma</span>
+                    </div>
+                    <span class="crr-preço crr-coluna">40,00</span>
+                    <div class="crr-qtd crr-coluna">
+                        <input class="crr-qtd-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">Remover</button>
+                    </div>
+                </div>    
             </div>
-            <div>
-                <img src="/Images/Magma.png" width="100">
-                <span>Album Magma</span>
-                <span>40,00</span>
-                <input type="number" value="1">
-                <button type="button">Remover</button>
+            <div class="crr-total">
+                <span class="crr-total-nome">Total</span>
+                <span class="crr-total-preço">R$65,00</span>
             </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>R$65,00</span>
-            </div>
-            <div>
-                <button role="button">Comprar</button>
-            </div>
-            
+            <button class="btn btn-primary btn-comprar" role="button">Comprar</button>
         </section>
         <footer class="main-footer">
             <div class="container main-footer-container">
